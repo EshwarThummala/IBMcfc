@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">jdi</string>
+    <array name="food_places">
+        <item>Left Corner Tent-9</item>
+        <item>RightCorner Tent-26</item>
+        <item>Government School Room No-125</item>
+        <item>Zilla Parshid</item>
+    </array>
+    <array name="Food_ava">
+        <item>Food Packets-2000</item>
+        <item>Water Bottles-5000</item>
+    </array>
+    <array name="med_places">
+        <item>Left Corner Tent-48</item>
+        <item>RightCorner Tent-35</item>
+        <item>RightCorner Tent-67</item>
+        <item>RightCorner Tent-32</item>
+        <item>Government School Room No-124</item>
+        <item>Zilla Parshid</item>
+    </array>
+    <array name="med_ava">
+        <item>antibiotics-2000</item>
+        <item>salines-5000</item>
+        <item>Cotton-200Bundles</item>
+    </array>
+    <array name="volinfo">
+        <item>Its Emergency Near School</item>
+        <item>Some People Stuck Under collapsed Building near Water tank</item>
+    </array>
+</resources>

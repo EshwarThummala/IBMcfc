@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:text="Food Details"
+        android:textSize="25dp"
+        android:textColor="#00897B"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="Places Food Available"
+        android:textSize="25dp"
+        android:textColor="#00897B"
+        android:layout_weight="1"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#B4BDF5"
+        android:layout_height="0dp"
+        android:entries="@array/food_places"
+        android:layout_weight="4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Food"
+        android:textSize="25dp"
+        android:textColor="#00897B"
+        android:layout_weight="1"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:entries="@array/Food_ava"
+        android:background="#B4BDF5"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:text="call"
+        android:textColor="#fff"
+        android:id="@+id/foodcall"
+        android:background="#3949AB"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+</LinearLayout>
